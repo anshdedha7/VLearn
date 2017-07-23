@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/containerEpisode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:descendantFocusability="beforeDescendants"
+        android:orientation="vertical"
+        tools:showIn="@layout/fragment_episode">
+
+        <TextView
+            android:id="@+id/textViewEpisodeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:textAppearance="@style/TextAppearance.Large"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/textViewEpisodeReleaseTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="@dimen/large_padding"
+            android:textAppearance="@style/TextAppearance.Small"
+            android:textIsSelectable="true" />
+
+        <FrameLayout
+            android:id="@+id/containerEpisodeImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/large_padding"
+            android:layout_marginRight="@dimen/large_padding"
+            android:layout_marginBottom="@dimen/inline_padding"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            tools:ignore="Overdraw">
+
+            <ImageView
+                android:id="@+id/imageViewEpisode"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/none"
+                android:scaleType="fitCenter" />
+
+            <ProgressBar
+                android:id="@+id/progressBarAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:id="@+id/playVideo"
+                android:src="@drawable/play_video"
+                android:layout_gravity="center" />
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="@dimen/large_padding"
+            android:layout_marginRight="@dimen/large_padding"
+            android:background="@color/material"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:id="@+id/textViewEpisodeDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="@dimen/large_padding"
+            android:textAppearance="@style/TextAppearance.Small.Bright"
+            android:textIsSelectable="true" />
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

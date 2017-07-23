@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="default_padding">6dp</dimen>
+    <dimen name="text_size2">14sp</dimen>
+    <dimen name="inline_padding">2dp</dimen>
+    <dimen name="dialog_min_width">300dp</dimen>
+    <dimen name="larger_padding">24dp</dimen>
+    <dimen name="show_poster_width">68dp</dimen>
+    <dimen name="show_poster_height">100dp</dimen>
+    <dimen name="max_width_text_size_body">400dp</dimen>
+    <dimen name="large_padding">24dp</dimen>
+</resources>

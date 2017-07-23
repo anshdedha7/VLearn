@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Seasons</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="refresh">Refresh</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="map_search">Map Search</string>
+    <string name="title_activity_episodes">Overview</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="description_poster">show_poster</string>
+    <string name="title_activity_add_show">Add show</string>
+    <string name="search">Search</string>
+    <string name="url_api_key">\?api_key=7210257ce98ebcdcc9e4daa7aa235114</string>
+    <string name="url_list">/list</string>
+    <string name="url_list_1_id">/560eb14e9251413f0900341d</string>
+    <string name="url_base">http://api.themoviedb.org/3</string>
+    <string name="remove">Remove</string>
+    <string name="search_hint">Search series by name...</string>
+    <string name="action_shows_add">Add Show</string>
+    <string name="description_overview">overview</string>
+    <string name="show_genres">Genres</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="original_release">original release</string>
+</resources>

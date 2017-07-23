@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="TextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif</item>
+    </style>
+
+    <style name="TextAppearance.Display1">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/heading1</item>
+    </style>
+
+    <style name="TextAppearance.Large">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/heading1</item>
+    </style>
+
+    <style name="TextAppearance.Medium">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/heading1</item>
+    </style>
+
+    <style name="TextAppearance.Small">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/heading2</item>
+    </style>
+
+    <style name="TextAppearance.Small.Bright">
+        <item name="android:textColor">@color/heading1</item>
+    </style>
+
+    <style name="TextAppearance.Small.Extra">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/heading1</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/material</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="popupMenuStyle">@style/PopupMenu</item>
+        <item name="alertDialogTheme">@style/dialog</item>
+    </style>
+
+    <style name="dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/dialog</item>
+        <item name="android:colorBackground">@color/dialog</item>
+    </style>
+
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background"  tools:ignore="NewApi">@color/actionBar</item>
+        <item name="background">@color/actionBar</item>
+        <item name="android:actionMenuTextColor">@color/heading2</item>
+    </style>
+
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@color/background</item>
+        <item name="android:textColor">@color/heading2</item>
+    </style>
+
+    <style name="PopupMenu.Actionbar" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:actionMenuTextColor">@color/heading2</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <color name="heading1">#ffffff</color>
+    <color name="heading2">#AEAEAE</color>
+    <color name="background">#202020</color>
+    <color name="listItemColor">#303030</color>
+    <color name="dialog">#3F3F3F</color>
+    <color name="shadow">#000000</color>
+    <color name="actionBar">#a82400</color>
+    <color name="notificationBar">#8f1f00</color>
+    <color name="material">#0084a8</color>
+
+
+
+</resources>

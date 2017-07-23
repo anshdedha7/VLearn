@@ -1,0 +1,24 @@
+<resources>>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="popupMenuStyle">@style/PopupMenu</item>
+        <item name="android:actionMenuTextColor">@color/heading2</item>
+        <item name="android:navigationBarColor">@color/actionBar</item>
+        <item name="colorPrimary">@color/actionBar</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:colorForeground">@color/listItemColor</item>
+        <item name="android:statusBarColor">@color/notificationBar</item>
+        <item name="android:textColorPrimary">@color/heading1</item>
+        <item name="android:textColorSecondary">@color/heading2</item>
+        <item name="colorAccent">@color/material</item>
+        <item name="colorPrimaryDark">@color/notificationBar</item>
+    </style>
+</resources>
